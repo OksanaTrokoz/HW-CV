@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    width: 1024px;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.leftside {
+    flex: 1;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.rightside {
+    flex: 2;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+.photo_img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.contacts, .languages, .personal_skills, .about_me, .education, .work_experience, .professional_skills {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.languages_divider, .skills_devider, .aboutme_devider, .education_devider, .workexperience_devider, .profskills_devider {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
